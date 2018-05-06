@@ -1,0 +1,47 @@
+body{
+}
+.jumbotron-fixed{
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+.myAvt{
+	height: 200px;
+}
+.myAvt img{
+	height: 100%;
+	border-radius: 5px;
+}
+.title{
+	color: blue;
+}
+h4{
+	margin-bottom: 0px;
+}
+ul li {
+	list-style: none;
+	line-height: 2.0em;
+}
+@media (max-width: 767px){
+	.myAvt{
+		text-align: center;
+	}
+	.myInfo{
+		width: 50%;
+		float: left;
+		margin-left: 10%;
+	}
+	.myFav{
+		width: 40%;
+		float: left;
+	}
+	.myTitle-info{
+		width: 30%;
+		float: left
+	}
+	.myName{
+		text-align: center;
+	}
+	.respon{
+		margin-left: 8%;
+	}
+}
