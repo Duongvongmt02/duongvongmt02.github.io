@@ -1,47 +1,66 @@
-body{
+
+.chat-border{
+	padding-left: 0px;
+	padding-right: 0px;
+	border:solid 1px; 
+	height: 500px; 
+	margin-top: 100px;
 }
-.jumbotron-fixed{
-	padding-bottom: 30px;
-	padding-top: 30px;
+.mess-input{
+	/*margin: 0 -15px 0 -15px;*/
+	height: 20%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-top: solid 1px;
+	/*background-color: blue;*/
 }
-.myAvt{
-	height: 200px;
+.mess-input  input{
+	width: 80%; 
+	float: left; 
+	border-color: rgb(0,123,255);
 }
-.myAvt img{
-	height: 100%;
+.mess-input  button{
+	width: 20%;
+	float: left;
+}
+div {
+	display: block;
+}
+
+.mess-content{
+	width: 100%;
+	height: 80%;
+	padding-top: 15px;	
+	overflow: auto;
+}
+.mess-cust{
+	width: 100%;
+	float: left;
+}
+#mess-cust--content{
+	float: right;
+	min-width: 20%;
+	max-width: 40%;
+	height: auto;
+	color: white;
+	border: solid 1px;
 	border-radius: 5px;
+	padding-right: 5px;
+	background-color: rgb(52,61,70);
+	text-align: right;
 }
-.title{
-	color: blue;
+.mess-bot{
+	width: 100%;
+	float: left;
 }
-h4{
-	margin-bottom: 0px;
-}
-ul li {
-	list-style: none;
-	line-height: 2.0em;
-}
-@media (max-width: 767px){
-	.myAvt{
-		text-align: center;
-	}
-	.myInfo{
-		width: 50%;
-		float: left;
-		margin-left: 10%;
-	}
-	.myFav{
-		width: 40%;
-		float: left;
-	}
-	.myTitle-info{
-		width: 30%;
-		float: left
-	}
-	.myName{
-		text-align: center;
-	}
-	.respon{
-		margin-left: 8%;
-	}
+#mess-bot--content{
+	float: left;
+	min-width: 20%;
+	max-width: 40%;
+	height: auto;
+	color: white;
+	border: solid 1px;
+	border-radius: 5px;
+	padding-left: 5px;
+	background-color: rgb(52,61,70)
 }
